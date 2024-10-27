@@ -41,10 +41,7 @@ BOT_TOKEN=ваш_bot_token
 
 Запустите контейнер в фоновом режиме, указав созданный файл  `.env`  для передачи переменных окружения:
 
-`docker run -d \
-  --name pyrogram_bot_container \
-  --env-file .env \
-  pyrogram_bot` 
+`docker run -d --name pyrogram_bot_container --env-file .env pyrogram_bot` 
 
 ### 5. Проверка работы бота
 
