@@ -1,1 +1,5 @@
 venv
+.env
+tasks.db
+__pycache__
+.DS_Store
